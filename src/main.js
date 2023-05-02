@@ -2,11 +2,11 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-import './assets/main.css'
-
 // Loading overlay
 import Loading from 'vue-loading-overlay'
 import 'vue-loading-overlay/dist/css/index.css'
+
+import './assets/main.css'
 
 const app = createApp(App)
 
